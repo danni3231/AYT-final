@@ -1,0 +1,42 @@
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+    margin-bottom: 130px;
+
+    h1{
+        font-family: $abrilFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 200px;
+        line-height: 270px;
+        letter-spacing: 0.2em;
+
+        margin: 0px;
+    }
+
+    p{
+        font-family: $cormorantFont;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+
+        margin: 0px;
+    }
+
+    &--small{
+        margin-bottom: 0px;
+
+        h1{
+            font-size: 120px;
+            line-height: 162px;
+        }
+
+        p{
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+}

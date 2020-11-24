@@ -1,0 +1,24 @@
+.btn{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 185px;
+
+    a{
+        color: black;
+    }
+
+    p{
+        font-family: $cormorantFont;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+
+        margin: 0px;
+    }
+
+    hr{
+        width: 360px;
+        background-color: black;
+    }
+}

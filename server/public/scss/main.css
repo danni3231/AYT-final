@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+body {
+  width: 100%;
+  height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  background-image: url("../data/bg.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+}
+
+body .animationText {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+
+body .hidden {
+  display: none;
+}
+
+body .clickable {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  width: 525px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map {
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+}
+
+.home {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  margin-bottom: 130px;
+}
+
+.title h1 {
+  font-family: "Abril Fatface", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 200px;
+  line-height: 270px;
+  letter-spacing: 0.2em;
+  margin: 0px;
+}
+
+.title p {
+  font-family: "Cormorant", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  margin: 0px;
+}
+
+.title--small {
+  margin-bottom: 0px;
+}
+
+.title--small h1 {
+  font-size: 120px;
+  line-height: 162px;
+}
+
+.title--small p {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 185px;
+}
+
+.btn a {
+  color: black;
+}
+
+.btn p {
+  font-family: "Cormorant", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  margin: 0px;
+}
+
+.btn hr {
+  width: 360px;
+  background-color: black;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+}
+
+.form label {
+  font-family: "Cormorant", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 15px;
+}
+
+.form input {
+  font-family: "Cormorant", serif;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  width: 670px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.piano {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 350px;
+}
+
+.piano__text {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.piano__text strong {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.piano__game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1130px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.piano .key {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

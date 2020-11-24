@@ -1,0 +1,42 @@
+.piano{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+
+    &__text{
+        font-family: $cormorantFont;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    
+        
+        strong{
+            font-size: 36px;
+            line-height: 44px;
+        }
+    }
+
+    &__game{
+        display: flex;
+        width: 1130px;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .key{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+}

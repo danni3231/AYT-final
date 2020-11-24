@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>AYT-Particles</title>
+</head>
+
+<body>
+    <section class="title title--small">
+        <h1>PARTICLES</h1>
+        <p>Una nueva manera de vivir el museo.</p>
+    </section>
+
+    <article class="piano">
+
+        <section class="piano__text">
+            <strong>
+                Crea tu propia experiencia sonora
+            </strong>
+            <p>
+                Presiona la tecla correspondiente a cada palabra para escuchar un sonido único
+            </p>
+
+        </section>
+
+        <section class="piano__game">
+
+            <div class="key key--a">
+                <p>...</p>
+                <img src="./data/icons/a.png" alt="">
+            </div>
+
+            <div class="key key--s">
+                <p>...</p>
+                <img src="./data/icons/s.png" alt="">
+            </div>
+
+            <div class="key key--d">
+                <p>...</p>
+                <img src="./data/icons/d.png" alt="">
+            </div>
+
+            <div class="key key--f">
+                <p>...</p>
+                <img src="./data/icons/f.png" alt="">
+            </div>
+
+            <div class="key key--j">
+                <p>...</p>
+                <img src="./data/icons/j.png" alt="">
+            </div>
+
+            <div class="key key--k">
+                <p>...</p>
+                <img src="./data/icons/k.png" alt="">
+            </div>
+
+            <div class="key key--l">
+                <p>...</p>
+                <img src="./data/icons/l.png" alt="">
+            </div>
+
+        </section>
+
+        <audio class='music music--A'>
+            
+        </audio>
+
+        <audio class='music music--S'>
+            
+        </audio>
+
+        <audio class='music music--D'>
+            
+        </audio>
+
+        <audio class='music music--F'>
+            
+        </audio>
+
+        <audio class='music music--J'>
+            
+        </audio>
+
+        <audio class='music music--K'>
+            
+        </audio>
+
+        <audio class='music music--L'>
+            <source type="audio/wav" src='./data/sounds/Bogotá.wav'>
+        </audio>
+
+    </article>
+
+    <footer>
+        <img src="./data/icons/tertuliaLogo.png" alt="">
+        <img src="./data/icons/icesiLogo.png" alt="">
+    </footer>
+
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="./scripts/piano.js"></script>
+
+</html>
