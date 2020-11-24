@@ -26,26 +26,26 @@ function setup() {
     words = [];
     switch (parseInt(index)) {
         case 0:
-            words.push(new Word(exposiciones[index].keyWords[0], 1032, 530));
+            words.push(new Word(exposiciones[index].keyWords[0], 1032, 450));
             words.push(new Word(exposiciones[index].keyWords[1], 160, 430));
-            words.push(new Word(exposiciones[index].keyWords[2], 1134, 737));
+            words.push(new Word(exposiciones[index].keyWords[2], 1134, 600));
             words.push(new Word(exposiciones[index].keyWords[3], 1032, 150));
             words.push(new Word(exposiciones[index].keyWords[4], 1474, 260));
-            words.push(new Word(exposiciones[index].keyWords[5], 300, 845));
-            words.push(new Word(exposiciones[index].keyWords[6], 116, 604));
-            words.push(new Word(exposiciones[index].keyWords[7], 960, 883));
+            words.push(new Word(exposiciones[index].keyWords[5], 300, 780));
+            words.push(new Word(exposiciones[index].keyWords[6], 450, 604));
+            words.push(new Word(exposiciones[index].keyWords[7], 960, 750));
 
             break;
 
         case 1:
             words.push(new Word(exposiciones[index].keyWords[0], 1300, 330));
-            words.push(new Word(exposiciones[index].keyWords[1], 94, 876));
+            words.push(new Word(exposiciones[index].keyWords[1], 94, 776));
             words.push(new Word(exposiciones[index].keyWords[2], 116, 530));
-            words.push(new Word(exposiciones[index].keyWords[3], 775, 766));
+            words.push(new Word(exposiciones[index].keyWords[3], 775, 666));
             words.push(new Word(exposiciones[index].keyWords[4], 578, 350));
             words.push(new Word(exposiciones[index].keyWords[5], 1353, 560));
             words.push(new Word(exposiciones[index].keyWords[6], 1032, 150));
-            words.push(new Word(exposiciones[index].keyWords[7], 1528, 910));
+            words.push(new Word(exposiciones[index].keyWords[7], 1528, 810));
 
             break;
 
@@ -64,33 +64,33 @@ function setup() {
         case 3:
             words.push(new Word(exposiciones[index].keyWords[0], 707, 732));
             words.push(new Word(exposiciones[index].keyWords[1], 578, 370));
-            words.push(new Word(exposiciones[index].keyWords[2], 94, 876));
+            words.push(new Word(exposiciones[index].keyWords[2], 94, 776));
             words.push(new Word(exposiciones[index].keyWords[3], 1353, 542));
             words.push(new Word(exposiciones[index].keyWords[4], 181, 540));
             words.push(new Word(exposiciones[index].keyWords[5], 935, 147));
             words.push(new Word(exposiciones[index].keyWords[6], 1421, 226));
-            words.push(new Word(exposiciones[index].keyWords[7], 1528, 910));
+            words.push(new Word(exposiciones[index].keyWords[7], 1528, 810));
 
             break;
 
         case 4:
-            words.push(new Word(exposiciones[index].keyWords[0], 116, 845));
-            words.push(new Word(exposiciones[index].keyWords[1], 578, 250));
-            words.push(new Word(exposiciones[index].keyWords[2], 669, 503));
-            words.push(new Word(exposiciones[index].keyWords[3], 1134, 611));
+            words.push(new Word(exposiciones[index].keyWords[0], 116, 745));
+            words.push(new Word(exposiciones[index].keyWords[1], 578, 300));
+            words.push(new Word(exposiciones[index].keyWords[2], 669, 603));
+            words.push(new Word(exposiciones[index].keyWords[3], 1134, 511));
             words.push(new Word(exposiciones[index].keyWords[4], 1000, 100));
             words.push(new Word(exposiciones[index].keyWords[5], 116, 433));
-            words.push(new Word(exposiciones[index].keyWords[6], 970, 917));
-            words.push(new Word(exposiciones[index].keyWords[7], 1528, 910));
+            words.push(new Word(exposiciones[index].keyWords[6], 970, 817));
+            words.push(new Word(exposiciones[index].keyWords[7], 1528, 710));
 
             break;
 
         case 5:
             words.push(new Word(exposiciones[index].keyWords[0], 691, 486));
             words.push(new Word(exposiciones[index].keyWords[1], 401, 280));
-            words.push(new Word(exposiciones[index].keyWords[2], 60, 804));
-            words.push(new Word(exposiciones[index].keyWords[3], 1008, 80));
-            words.push(new Word(exposiciones[index].keyWords[4], 629, 891));
+            words.push(new Word(exposiciones[index].keyWords[2], 60, 654));
+            words.push(new Word(exposiciones[index].keyWords[3], 1008, 150));
+            words.push(new Word(exposiciones[index].keyWords[4], 629, 791));
             words.push(new Word(exposiciones[index].keyWords[5], 1461, 326));
             words.push(new Word(exposiciones[index].keyWords[6], 1008, 674));
             words.push(new Word(exposiciones[index].keyWords[7], 1384, 768));
@@ -100,9 +100,9 @@ function setup() {
         case 6:
             words.push(new Word(exposiciones[index].keyWords[0], 691, 486));
             words.push(new Word(exposiciones[index].keyWords[1], 401, 280));
-            words.push(new Word(exposiciones[index].keyWords[2], 60, 804));
-            words.push(new Word(exposiciones[index].keyWords[3], 1008, 80));
-            words.push(new Word(exposiciones[index].keyWords[4], 629, 891));
+            words.push(new Word(exposiciones[index].keyWords[2], 60, 654));
+            words.push(new Word(exposiciones[index].keyWords[3], 1008, 150));
+            words.push(new Word(exposiciones[index].keyWords[4], 629, 791));
             words.push(new Word(exposiciones[index].keyWords[5], 1461, 326));
             words.push(new Word(exposiciones[index].keyWords[6], 1008, 674));
             words.push(new Word(exposiciones[index].keyWords[7], 1384, 768));
